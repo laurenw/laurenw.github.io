@@ -5,13 +5,13 @@ body {
     /* Prevent scroll on narrow devices */
 }
 body {
-    padding-top: 120px;
+    padding-top: 20px;
     font-size: 14px;
     font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #2e2e2e;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 h1 {
     font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
