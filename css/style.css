@@ -1,0 +1,291 @@
+@import "compass/css3";
+html,
+body {
+    overflow-x: hidden;
+    /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 120px;
+    font-size: 14px;
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: justify;
+}
+h1 {
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin-top: 7px;
+    font-weight: 700;
+    color: #111;
+    background-color: #fff;
+}
+h2-top {
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 5px;
+    display: block;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    display: block;
+}
+footer {
+    padding: 25px 0;
+    font-size: 12px;
+    color: #9f9f9f;
+    text-align: right;
+}
+::selection {
+    color: #fff;
+    background: #eeb211;
+}
+::-moz-selection {
+    color: #fff;
+    background: #eeb211;
+}
+.side-banner {
+    align-items: baseline;
+}
+.project-img-responsive {
+    width: 100%;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.more-img-responsive {
+    width: 50%;
+    border: 1px solid #fefefe;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+.more-img-responsive_4 {
+    width: 23%;
+    border: 1px solid #fefefe;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+.news-img-responsive {
+    width: 100%;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.link-img-responsive {
+    width: 100%;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+.navbar {
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.navbar-logo {
+    font-size: 23px;
+    font-weight: 300;
+    width: 250px;
+}
+.list-group,
+a.list-group-item:hover,
+a.list-group-item:focus {
+    color: #777;
+    background: none;
+}
+a.list-group-item span {
+    color: #333;
+    font-weight: 400;
+}
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    color: #777;
+    background-color: #fff;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+a.list-group-item {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: -8px;
+}
+.list-group-item {
+    border: none;
+    padding: 5px 0;
+}
+a {
+    color: #777;
+}
+a:hover,
+a:focus {
+    color: #eeb211;
+    text-decoration: none;
+}
+.course-heading {
+    margin-top: 0px;
+    !important
+}
+.carousel-control.left {
+    background-image: none;
+    !important
+}
+.carousel-control.right {
+    background-image: none;
+    !important
+}
+.profile {
+    margin-bottom: 10px;
+    display: inline;
+}
+.theoretical {
+    border-top: 2px solid #ddd;
+    margin-bottom: 25px;
+}
+#title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.research {
+    margin-bottom: 30px;
+}
+.news {
+    margin-bottom: 30px;
+}
+.brief {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.btn-primary {
+    background-color: #5f5f5f;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px 10px;
+    z-index: 1;
+    margin: 8px 15px 0px 15px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #2a2a2a;
+}
+.btn-secondary {
+    background-color: #fafafa;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 7px 25px;
+    vertical-align: middle;
+    z-index: 1;
+    margin: 5px 0px 5px 0px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #eeb211;
+    border: 1px solid #fff;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #111;
+}
+html {
+    overflow-y: scroll;
+}
+.collapse-body {
+    background: #F7f7f7;
+    border: 1px solid #eee;
+    border-radius: 2x;
+    padding: 10px 20px;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+@media screen and (max-width: 767px) {
+    .side-banner {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .news-img-responsive {
+        transform: translate(50%, 0%);
+        width: 50%;
+    }
+    .link-img-responsive {
+        transform: translate(50%, 0%);
+        width: 50%;
+        margin-bottom: -15px;
+    }
+}
+.modal-dialog {
+    width: 80%;
+}
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+#news a:link {
+    color: #eeb211;
+    font-weight: 400;
+}
+#news a:visited {
+    color: #eeb211;
+}
+#news a:hover {
+    color: #00254c;
+    font-weight: 500;
+}
+#news a:active {
+    color: #00254c;
+}
+#publications li {
+    margin: 0 0 20px 0;
+}
+#publications a:link {
+    color: #111;
+    font-weight: 500;
+}
+#publications a:visited {
+    color: #111;
+}
+#publications a:hover {
+    color: #eeb211;
+}
+#publications a:active {
+    color: #eeb211;
+}
